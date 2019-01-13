@@ -17,7 +17,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
-		<eclipselink.version>2.7.1</eclipselink.version>
+		<eclipselink.version>2.7.3</eclipselink.version>
 
 		<eclipselink.persistence.xsd>org/eclipse/persistence/jpa/persistence_2_2.xsd</eclipselink.persistence.xsd>
 		<persistence.xsd>${project.build.directory}/external-xsd/${eclipselink.persistence.xsd}</persistence.xsd>
@@ -93,7 +93,7 @@
 						<xjbSource>src/main/resources/persistence.xjb</xjbSource>
 					</xjbSources>
 					<packageName>some_package</packageName>
-					<outputDirectory>generated-sources</outputDirectory>
+					<outputDirectory>${basedir}/target/generated-sources</outputDirectory>
 					<clearOutputDir>false</clearOutputDir>
 					<generateEpisode>false</generateEpisode>
 					<noGeneratedHeaderComments>true</noGeneratedHeaderComments>
