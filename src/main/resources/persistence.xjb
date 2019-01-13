@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"  jaxb:version="2.0" 
+	xmlns:xjc= "http://java.sun.com/xml/ns/jaxb/xjc" > 
+ 	
+ 	<jaxb:bindings schemaLocation="../../../target/external-xsd/org/eclipse/persistence/jpa/persistence_2_2.xsd">
+ 	</jaxb:bindings>
+</jaxb:bindings>
